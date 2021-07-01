@@ -1,0 +1,11 @@
+Package: TVPRidge
+Type: Package
+Title: Time-Varying Parameters by Ridge Regressions
+Version: 0.1.0
+Author: Philippe Goulet Coulombe
+Maintainer: PGC <gouletc@sas.upenn.edu>
+Description: This function runs 2SRR, a technique allowing parameters of a linear equation(s) to evolve according to random walks. Computations are carried via a closed-form solution in the form of data-augmented ridge regression rather than with typically used burdensome filtering procedures.
+License: GPL-3
+Encoding: UTF-8
+Imports: pracma, fGarch, matrixcalc
+LazyData: true
